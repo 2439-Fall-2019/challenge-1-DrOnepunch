@@ -4,9 +4,9 @@ a template repository for the 2439 midterm project
 [Applied Challenge #1 Instructions](https://docs.google.com/document/d/e/2PACX-1vTbclFb83xohS9hWkVu7YA7JnSVJqh5Lz53HwQE6UONAhgtpvLjYeUGF1lqurwyjg/pub)
  
  
- ME AND OWEN LARSON WORKED TOGEATHER.
+ ME AND OWEN LARSON WORKED TOGETHER.
  Project Definition 
- 
+ I made my website for android
  
 Date: 9/27/19 
 Student Name:    Camden Grove  
