@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Camden Grove | INFO 2439 | Survey</title>
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+	
+	<link rel="stylesheet" href="Mod5_css/cgrove.css">
+	<!--Theme roller -->
+	<link rel="stylesheet" href="themes/ctheme1.css" />
+  <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+  <!--/Theme roller -->
+  
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    
+</head>
+<body>
+<!-- Camden Grove
+     applied challenge#1.html
+     INFO2439
+     Thoendel
+     10/12/19
+-->
+
+
+<div data-role="page">
+    <div data-role="header">
+	<a data-ajax="false" href="http://student.mccinfo.net/~cjgrove/info2439/index.html" class="ui-btn-left" target="_blank" data-icon="home">Home</a><h1>survey</h1>	<div data-role="navbar">
+    <ul>
+        <li><a data-ajax="false" class="ui-btn-active" href="form.html">survey</a></li>
+        <li><a data-ajax="false" href="Menu.html">menu</a></li>
+        <li><a data-ajax="false" href="res.html">Reservation</a></li>
+		<li><a data-ajax="false" href=" Maps.html">Maps</a></li>
+    </ul>
+</div></div>
+		<img src="_pic/sage.png" alt="sage pics" class="center">
+		
+		
+		
+		<!-- navbar-->
+		
+		
+<!-- /navbar -->
+
+
+<!-- form -->
+	<div role="main" class="ui-content">
+		
+		<form action="http://emthoendel.faculty.mccinfo.net/2439/bistrosurvey_insert.php" method="post"> 
+			
+<div class="ui-field-contain">	
+<ul data-role="listview" data-inset="true">
+            <li data-role="list-divider"><strong>Food evaluation</strong></li>		
+<label for="meal_rate">Taste/flavor</label>
+        <select name="meal_rate" id="meal_rate">
+            <option value="1 - Poor">1 - Poor</option>
+            <option value="2 - Needs Work">2 - Needs Work</option>
+            <option value="3 - Fair">3 - Fair</option>
+            <option value="4 - Good">4 - Good</option>
+            <option value="5 - Excellent">5 - Excellent</option>
+        </select>
+		
+		
+		<!-- space-->
+		
+		
+	
+		<label for="meal_rate"> Temperature</label>
+        <select name="service_rate" id="service_rate">
+            <option value="1 - Poor">1 - Poor</option>
+            <option value="2 - Needs Work">2 - Needs Work</option>
+            <option value="3 - Fair">3 - Fair</option>
+            <option value="4 - Good">4 - Good</option>
+            <option value="5 - Excellent">5 - Excellent</option>
+        </select>
+		
+		
+		<!-- space -->
+		
+		<label for="meal_rate">Timing</label>
+        <select name="overall_exp" id="overall_exp">
+            <option value="1 - Poor">1 - Poor</option>
+            <option value="2 - Needs Work">2 - Needs Work</option>
+            <option value="3 - Fair">3 - Fair</option>
+            <option value="4 - Good">4 - Good</option>
+            <option value="5 - Excellent">5 - Excellent</option>
+        </select>
+		
+		
+		
+			<!-- space -->
+			<label for="meal_rate">Presentation</label>
+        <select name="overall_exp" id="overall_exp">
+            <option value="1 - Poor">1 - Poor</option>
+            <option value="2 - Needs Work">2 - Needs Work</option>
+            <option value="3 - Fair">3 - Fair</option>
+            <option value="4 - Good">4 - Good</option>
+            <option value="5 - Excellent">5 - Excellent</option>
+        </select>
+		<!--space-->
+		<label for="meal_rate">The overall dining experience</label>
+        <select name="overall_exp" id="overall_exp">
+            <option value="1 - Poor">1 - Poor</option>
+            <option value="2 - Needs Work">2 - Needs Work</option>
+            <option value="3 - Fair">3 - Fair</option>
+            <option value="4 - Good">4 - Good</option>
+            <option value="5 - Excellent">5 - Excellent</option>
+        </select>
+				<ul data-role="listview" data-inset="true">
+				<input type='text' id='f_name'>
+            <li data-role="list-divider"><strong>Your Comments:</strong></li>
+		
+	        <textarea rows="4" cols="50">
+			
+</textarea>
+
+		
+		
+		
+			</br>
+			<ul data-role="listview" data-inset="true">
+            <li data-role="list-divider"><strong>Service evaluation</strong></li>
+			<!-- Space-->
+			<label for="meal_rate">Greeting</label>
+        <select name="overall_exp" id="overall_exp">
+            <option value="1 - Poor">1 - Poor</option>
+            <option value="2 - Needs Work">2 - Needs Work</option>
+            <option value="3 - Fair">3 - Fair</option>
+            <option value="4 - Good">4 - Good</option>
+            <option value="5 - Excellent">5 - Excellent</option>
+        </select>
+			<!--space -->
+				<label for="meal_rate">Server's menu knowledge</label>
+        <select name="overall_exp" id="overall_exp">
+            <option value="1 - Poor">1 - Poor</option>
+            <option value="2 - Needs Work">2 - Needs Work</option>
+            <option value="3 - Fair">3 - Fair</option>
+            <option value="4 - Good">4 - Good</option>
+            <option value="5 - Excellent">5 - Excellent</option>
+        </select>
+		<!--space -->
+			<label for="meal_rate">Attentiveness of server</label>
+        <select name="overall_exp" id="overall_exp">
+            <option value="1 - Poor">1 - Poor</option>
+            <option value="2 - Needs Work">2 - Needs Work</option>
+            <option value="3 - Fair">3 - Fair</option>
+            <option value="4 - Good">4 - Good</option>
+            <option value="5 - Excellent">5 - Excellent</option>
+        </select>
+		<!-- space-->
+			<label for="meal_rate">Presentation</label>
+        <select name="overall_exp" id="overall_exp">
+            <option value="1 - Poor">1 - Poor</option>
+            <option value="2 - Needs Work">2 - Needs Work</option>
+            <option value="3 - Fair">3 - Fair</option>
+            <option value="4 - Good">4 - Good</option>
+            <option value="5 - Excellent">5 - Excellent</option>
+        </select>
+		<!--space -->
+			<label for="meal_rate">Timely food & beverage delivery</label>
+        <select name="overall_exp" id="overall_exp">
+            <option value="1 - Poor">1 - Poor</option>
+            <option value="2 - Needs Work">2 - Needs Work</option>
+            <option value="3 - Fair">3 - Fair</option>
+            <option value="4 - Good">4 - Good</option>
+            <option value="5 - Excellent">5 - Excellent</option>
+        </select>
+		<!--space-->
+			<label for="meal_rate">The overall dining Experience</label>
+        <select name="overall_exp" id="overall_exp">
+            <option value="1 - Poor">1 - Poor</option>
+            <option value="2 - Needs Work">2 - Needs Work</option>
+            <option value="3 - Fair">3 - Fair</option>
+            <option value="4 - Good">4 - Good</option>
+            <option value="5 - Excellent">5 - Excellent</option>
+        </select>
+		</br>
+			<ul data-role="listview" data-inset="true">
+			<input type='text' id='f_name'>
+            <li data-role="list-divider"><strong>Your Comments:</strong></li>
+		
+	        <textarea rows="4" cols="50">
+			
+</textarea>
+
+                
+
+
+               
+
+                <input type="submit" value="Send">
+
+            </form>
+
+        </div>
+		
+		
+		
+		
+</div>
+<div data-role="footer">
+<a data-ajax="false" href="mailto:cjgrove@mail.mccneb.edu" class="ui-btn-center">Email us!</a>
+
+
+</div>
+
+</div>
+</body>
+</html>
